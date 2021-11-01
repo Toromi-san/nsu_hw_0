@@ -3,6 +3,7 @@
 #define INPUT_FILE_NAME "in.txt"
 #define OUTPUT_FILE_NAME "out.txt"
 
+
 void swap(int *array, int aInx, int bInx) {
     /* :Action: Swap to elements.
      * :args: {array} array, which elements will have been swapped;
@@ -13,6 +14,7 @@ void swap(int *array, int aInx, int bInx) {
     array[aInx] = array[bInx];
     array[bInx] = tmp;
 }
+
 
 void quickSort(int array[], int startIndex, int endIndex) {
     /* :Action: Sort the array.
